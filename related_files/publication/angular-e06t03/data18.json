@@ -1,0 +1,28 @@
+{
+  "data": [{
+    "id": 1,
+    "email": "michel.demers@serveur.com",
+    "firstname": "Michel",
+    "lastname": "Demers"
+  }, {
+    "id": 2,
+    "email": "robert.lavigueur@serveur.com",
+    "firstname": "Robert",
+    "lastname": "Lavigueur"
+  }, {
+    "id": 3,
+    "email": "jean.dupont@serveur.com",
+    "firstname": "Jean",
+    "lastname": "Dupont"
+  }, {
+    "id": 4,
+    "email": "louise.trudel@serveur.com",
+    "firstname": "Louise",
+    "lastname": "Trudel"
+  }, {
+    "id": 5,
+    "email": "julie.ladouceur@serveur.com",
+    "firstname": "Julie",
+    "lastname": "Ladouceur"
+  }]
+}

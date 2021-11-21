@@ -1,0 +1,12 @@
+<div class="row">
+  <div>
+    <h2>T14</h2>
+    <p>Description.</p>
+  </div>
+  <div class="code-preview">
+    <h3>t14.component.html</h3>
+    <iframe src="assets/code-preview/t14/html.txt"></iframe>
+    <h3>t14.component.ts</h3>
+    <iframe src="assets/code-preview/t14/typescript.txt"></iframe>
+  </div>
+</div>

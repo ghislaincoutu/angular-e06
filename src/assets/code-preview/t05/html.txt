@@ -1,0 +1,15 @@
+<div class="row">
+  <div>
+    <h2>T05</h2>
+    <p>Affichage de données. Test d'utilisation du module <b>ChangeDetectionStrategy</b>, afin d'éviter de déclencher une boucle sans fin.</p>
+    <div *ngFor="let x of data81">
+      <div [innerHTML]="displayHTML(x.id)"></div>
+    </div>
+  </div>
+  <div class="code-preview">
+    <h3>t05.component.html</h3>
+    <iframe src="assets/code-preview/t05/html.txt"></iframe>
+    <h3>t05.component.ts</h3>
+    <iframe src="assets/code-preview/t05/typescript.txt"></iframe>
+  </div>
+</div>

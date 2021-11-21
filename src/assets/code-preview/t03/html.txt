@@ -1,0 +1,13 @@
+<div class="row">
+  <div>
+    <h2>T03</h2>
+    <p>Test d'utilisation de la fonctionnalité Angular <b>Promise</b>.</p>
+    <code [innerHTML]="message23" class="message23"></code>
+  </div>
+  <div class="code-preview">
+    <h3>t03.component.html</h3>
+    <iframe src="assets/code-preview/t03/html.txt"></iframe>
+    <h3>t03.component.ts</h3>
+    <iframe src="assets/code-preview/t03/typescript.txt"></iframe>
+  </div>
+</div>

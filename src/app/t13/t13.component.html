@@ -1,0 +1,23 @@
+<div class="row">
+  <div>
+    <h2>T13</h2>
+    <p>Filtrage de données à partir d'un menu déroulant.</p>
+    <form class="form04">
+      <select [(ngModel)]="brandModel" (change)="selectBrand()" [ngModelOptions]="{standalone: true}">
+        <option value="all">Toutes les marques</option>
+        <option *ngFor="let item of brandName">{{ item }}</option>
+      </select>
+      <div *ngFor="let x of goods">
+        <div>{{ x.title }}</div>
+      </div>
+    </form>
+  </div>
+  <div class="code-preview">
+    <h3>t13.component.html</h3>
+    <iframe src="assets/code-preview/t13/html.txt"></iframe>
+    <h3>t13.component.ts</h3>
+    <iframe src="assets/code-preview/t13/typescript.txt"></iframe>
+    <h3>module03.service.ts</h3>
+    <iframe src="assets/code-preview/module03/typescript.txt"></iframe>
+  </div>
+</div>

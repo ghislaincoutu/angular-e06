@@ -1,0 +1,28 @@
+/* You can add global styles to this file, and also import other style files */
+@import "styles/layout.scss";
+@import "styles/texts.scss";
+@import "styles/forms.scss";
+
+.content88 {
+  margin: 0 0 20px 0;
+  iframe {
+    width: 100%;
+    border: 1px dashed darkmagenta;
+  }
+}
+.external-file {
+  margin: 0 0 20px 0;
+  padding: 10px;
+  border: 1px dashed #666;
+}
+.code-preview {
+  iframe {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 120px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+  }
+}

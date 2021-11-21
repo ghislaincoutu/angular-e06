@@ -1,0 +1,31 @@
+import { Component, OnInit } from '@angular/core';
+import { Module03Service } from '../module03.service';
+
+@Component({
+  selector: 'app-t12',
+  templateUrl: './t12.component.html',
+  styleUrls: ['./t12.component.scss'],
+  providers: [Module03Service]
+})
+export class T12Component implements OnInit {
+  brandName = [] as any;
+  goods = [] as any;
+
+  constructor(private module03: Module03Service) { }
+
+  ngOnInit(): void {
+    this.brandName = this.module03.brandName;
+    this.goods = this.module03.goods;
+  }
+  public brandModel: any;
+  public selectBrand() {
+    this.goods = this.module03.goods.filter(
+      item => item.name === this.brandModel
+    );
+  }
+  public resetList() {
+    this.brandModel = { id: -1 };
+    this.goods = this.module03.goods;
+  }
+
+}
