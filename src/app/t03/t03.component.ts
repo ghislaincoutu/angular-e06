@@ -24,7 +24,7 @@ export class T03Component implements OnInit {
   fetchDataAsPromise() {
     return this.httpClient
       .get(
-        "https://172.17.0.1:2443/angular-e06t03/data18.json"
+        "https://172.17.0.1:2443/r002/angular-e06t03/data18.json"
       )
       .toPromise();
   }
