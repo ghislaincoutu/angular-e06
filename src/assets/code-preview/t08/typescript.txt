@@ -13,19 +13,19 @@ export class T08Component implements OnInit {
   data81 = [
     {
       id: "aide001",
-      iframe73: "<iframe src='https://172.17.0.1:2443/angular-e06t01/fiches/aide001/include.html' id='aide001'></iframe>"
+      iframe73: "<iframe src='https://172.17.0.1:2443/r002/angular-e06t01/fiches/aide001/include.html' id='aide001'></iframe>"
     },
     {
       id: "aide002",
-      iframe73: "<iframe src='https://172.17.0.1:2443/angular-e06t01/fiches/aide002/include.html' id='aide002'></iframe>"
+      iframe73: "<iframe src='https://172.17.0.1:2443/r002/angular-e06t01/fiches/aide002/include.html' id='aide002'></iframe>"
     },
     {
       id: "aide003",
-      iframe73: "<iframe src='https://172.17.0.1:2443/angular-e06t01/fiches/aide003/include.html' id='aide003'></iframe>"
+      iframe73: "<iframe src='https://172.17.0.1:2443/r002/angular-e06t01/fiches/aide003/include.html' id='aide003'></iframe>"
     },
     {
       id: "aide004",
-      iframe73: "<iframe src='https://172.17.0.1:2443/angular-e06t01/fiches/aide004/include.html' id='aide004'></iframe>"
+      iframe73: "<iframe src='https://172.17.0.1:2443/r002/angular-e06t01/fiches/aide004/include.html' id='aide004'></iframe>"
     }
   ];
 

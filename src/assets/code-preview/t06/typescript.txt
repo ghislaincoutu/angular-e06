@@ -11,7 +11,7 @@ export class T06Component implements OnInit {
   htmlTemplate38: any = '';
   htmlData38: any = '';
   htmlString38: any = '';
-  webServer38: string = 'https://172.17.0.1:2443/angular-e06t01/fiches';
+  webServer38: string = 'https://172.17.0.1:2443/r002/angular-e06t01/fiches';
 
   constructor(
     public http: HttpClient,

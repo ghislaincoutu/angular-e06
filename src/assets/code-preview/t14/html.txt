@@ -1,7 +1,13 @@
 <div class="row">
   <div>
     <h2>T14</h2>
-    <p>Description.</p>
+    <p>Sélection de données spécifiques dans un fichier JSON.</p>
+    <h3>data30</h3>
+    <code>{{ test21 | json }}</code>
+    <h3>data30.records</h3>
+    <code>{{ test22 | json }}</code>
+    <h3>data30.records.find(item => item.id === 12)</h3>
+    <code>{{ test23 | json }}</code>
   </div>
   <div class="code-preview">
     <h3>t14.component.html</h3>

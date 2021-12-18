@@ -1,7 +1,13 @@
 <div class="row">
   <div>
     <h2>T15</h2>
-    <p>Description.</p>
+    <p>Sélection de données spécifiques dans un fichier JSON.</p>
+    <h3>response21.main.*</h3>
+    <code>{{ processData21 | json }}</code>
+    <h3>response22.records</h3>
+    <code>{{ processData22a | json }}</code>
+    <h3>response22.records</h3>
+    <code>{{ processData22b | json }}</code>
   </div>
   <div class="code-preview">
     <h3>t15.component.html</h3>
