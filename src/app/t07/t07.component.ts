@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { DomSanitizer } from '@angular/platform-browser';
+import { environment } from './../../environments/environment';
 
 @Component({
   selector: 'app-t07',
@@ -8,11 +9,13 @@ import { DomSanitizer } from '@angular/platform-browser';
   styleUrls: ['./t07.component.scss']
 })
 export class T07Component implements OnInit {
+  envTitle = environment.envTitle;
+  envURL = environment.envURL;
   files38: any = '';
   htmlTemplate38: any = '';
   htmlData38: any = '';
   htmlString38: any = '';
-  webServer38: string = 'https://172.17.0.1:2443/r002/angular-e06t01/fiches';
+  webServer38: string = this.envURL + '/angular-e06t01/fiches';
 
   constructor(
     public http: HttpClient,
@@ -52,6 +55,7 @@ export class T07Component implements OnInit {
   }
 
   ngOnInit(): void {
+    console.log(this.envTitle);
   }
 
 }

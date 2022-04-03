@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from "@angular/common/http";
+import { environment } from './../../environments/environment';
 
 @Component({
   selector: 'app-t03',
@@ -7,12 +8,15 @@ import { HttpClient } from "@angular/common/http";
   styleUrls: ['./t03.component.scss']
 })
 export class T03Component implements OnInit {
+  envTitle = environment.envTitle;
+  envURL = environment.envURL;
   message23: any = '';
 
   constructor(private httpClient: HttpClient) { }
 
   ngOnInit(): void {
     console.log("Test de la fonctionnalité Angular Promise");
+    console.log(this.envTitle);
     this.fetchDataAsPromise()
       .then((data) => {
         this.message23 = "Promise acepted with " + JSON.stringify(data);
@@ -24,7 +28,7 @@ export class T03Component implements OnInit {
   fetchDataAsPromise() {
     return this.httpClient
       .get(
-        "https://172.17.0.1:2443/r002/angular-e06t03/data18.json"
+        this.envURL + "/angular-e06t03/data18.json"
       )
       .toPromise();
   }

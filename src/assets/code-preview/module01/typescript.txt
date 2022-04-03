@@ -1,7 +1,9 @@
 import { Injectable } from '@angular/core';
 import { of, Observable } from 'rxjs';
 import { delay } from 'rxjs/operators';
+import { environment } from './../environments/environment';
 
+const envURL = environment.envURL;
 const data62 = [
   { city: "Montréal" },
   { city: "Québec" },
@@ -9,23 +11,22 @@ const data62 = [
   { city: "Sherbrooke" },
   { city: "Laval" }
 ];
-
 const data84 = [
   {
     id: "aide001",
-    extfile73: "https://172.17.0.1:2443/angular-e06t01/fiches/aide001/include.html"
+    extfile73: envURL + "/angular-e06t01/fiches/aide001/include.html"
   },
   {
     id: "aide002",
-    extfile73: "https://172.17.0.1:2443/angular-e06t01/fiches/aide001/include.html"
+    extfile73: envURL + "/angular-e06t01/fiches/aide001/include.html"
   },
   {
     id: "aide003",
-    extfile73: "https://172.17.0.1:2443/angular-e06t01/fiches/aide001/include.html"
+    extfile73: envURL + "/angular-e06t01/fiches/aide001/include.html"
   },
   {
     id: "aide004",
-    extfile73: "https://172.17.0.1:2443/angular-e06t01/fiches/aide001/include.html"
+    extfile73: envURL + "/angular-e06t01/fiches/aide001/include.html"
   }
 ];
 
