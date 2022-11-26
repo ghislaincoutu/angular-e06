@@ -2,11 +2,9 @@
   <div>
     <h2>T01</h2>
     <p>Affichage de données. Application d'un délai de deux (2) secondes avant d'afficher le contenu de la liste. Limitation à l'affichage de trois (3) enregistrements.</p>
-
     <ul>
       <li *ngFor="let x of (dataList62 | async) | slice:0:3">{{ x.city }}</li>
     </ul>
-
   </div>
   <div class="code-preview">
     <h3>t01.component.html</h3>
