@@ -6,7 +6,7 @@ echo "Publication de l'applications sur le serveur Web local"
 apply_pause "Appuyer sur la touche [Retour] pour continuer..."
 
 # Source (so)
-so=/home/Exercices/angular-e06/dist/angular-e06
+so=/home/Exercises/angular-e06/dist/angular-e06
 # Destination (de)
 de=/var/www/html/r002/angular-e06
 
