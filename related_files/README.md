@@ -4,7 +4,7 @@
 https://ghislaincoutu.ca/r002/angular-e06
 
 ## Commandes Angular à exécuter pour générer les composants de l'exercice
-```
+```sh
 ng generate component accueil
 ng generate component menu
 ng generate component t01
