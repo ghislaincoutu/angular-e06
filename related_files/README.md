@@ -1,5 +1,5 @@
 # angular-e06 &mdash; Programmation de divers composants et services Angular (E06)
-[README](../README.md)
+[README](../README.md) &mdash; Angular
 
 ## Démonstration
 https://ghislaincoutu.ca/r002/angular-e06
