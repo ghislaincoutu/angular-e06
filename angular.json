@@ -72,10 +72,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "angular-e06:build:production"
+              "buildTarget": "angular-e06:build:production"
             },
             "development": {
-              "browserTarget": "angular-e06:build:development"
+              "buildTarget": "angular-e06:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -83,7 +83,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-e06:build"
+            "buildTarget": "angular-e06:build"
           }
         },
         "test": {
