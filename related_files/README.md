@@ -2,7 +2,7 @@
 [README](../README.md) &mdash; Angular
 
 ## Démonstration
-https://ghislaincoutu.ca/r002/angular-e06
+https://ghislaincoutu.ca/d002/angular-e06
 
 ## Commandes Angular à exécuter pour générer les composants de l'exercice
 ```sh
