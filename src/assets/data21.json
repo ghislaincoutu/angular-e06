@@ -1,0 +1,42 @@
+{
+  "coord": {
+    "lon": 6.8958,
+    "lat": 52.2183
+  },
+  "weather": [{
+    "id": 804,
+    "main": "Clouds",
+    "description": "overcast clouds",
+    "icon": "04n"
+  }],
+  "base": "stations",
+  "main": {
+    "temp": 279.08,
+    "feels_like": 277.82,
+    "temp_min": 278.38,
+    "temp_max": 280.13,
+    "pressure": 1032,
+    "humidity": 94
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 1.79,
+    "deg": 273,
+    "gust": 3.58
+  },
+  "clouds": {
+    "all": 100
+  },
+  "dt": 1639883616,
+  "sys": {
+    "type": 2,
+    "id": 2038510,
+    "country": "NL",
+    "sunrise": 1639899502,
+    "sunset": 1639927245
+  },
+  "timezone": 3600,
+  "id": 2756071,
+  "name": "Enschede",
+  "cod": 200
+}

@@ -1,0 +1,19 @@
+import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { Module01Service } from '../module01.service';
+
+@Component({
+  selector: 'app-t01',
+  templateUrl: './t01.component.html',
+  styleUrls: ['./t01.component.scss']
+})
+export class T01Component implements OnInit {
+  dataList62!: Observable<any[]>;
+
+  constructor(private module01: Module01Service) { }
+
+  ngOnInit(): void {
+    this.dataList62 = this.module01.getData62();
+  }
+
+}

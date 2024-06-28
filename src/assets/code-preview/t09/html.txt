@@ -1,0 +1,17 @@
+<div class="row">
+  <div>
+    <h2>T09</h2>
+    <p>Affichage de contenus HTML intégrés dans un JSON.</p>
+    <div *ngFor="let x of data81">
+      <h3 [innerHTML]="displayData(x.id)"></h3>
+      <p [innerHTML]="displayData(x.title33)"></p>
+      <p [innerHTML]="displayData(x.html33)" style="color:#666"></p>
+    </div>
+  </div>
+  <div class="code-preview">
+    <h3>t09.component.html</h3>
+    <iframe src="assets/code-preview/t09/html.txt"></iframe>
+    <h3>t09.component.ts</h3>
+    <iframe src="assets/code-preview/t09/typescript.txt"></iframe>
+  </div>
+</div>

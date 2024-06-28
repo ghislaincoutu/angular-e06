@@ -1,0 +1,20 @@
+<div class="row">
+  <div>
+    <h2>T11</h2>
+    <p>Programmation d'un formulaire incluant un menu déroulant.</p>
+    <form [formGroup]="formGroup01" (ngSubmit)="onSubmit()">
+      <select formControlName="name21">
+        <option disabled>Options disponibles</option>
+        <option>Sélectionner une option</option>
+        <option *ngFor="let x of firstName">{{ x }}</option>
+      </select>
+      <button>Soumettre</button>
+    </form>
+  </div>
+  <div class="code-preview">
+    <h3>t11.component.html</h3>
+    <iframe src="assets/code-preview/t11/html.txt"></iframe>
+    <h3>t11.component.ts</h3>
+    <iframe src="assets/code-preview/t11/typescript.txt"></iframe>
+  </div>
+</div>

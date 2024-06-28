@@ -1,0 +1,31 @@
+h1 {
+  margin: 0 0 4px 0;
+  color: #fff;
+  font-size: 2.2rem;
+}
+h2 {
+  margin: 12px 0 6px 0;
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+h2:first-child {
+  margin-top: 0;
+}
+h3 {
+  margin: 12px 0 6px 0;
+  font-size: 1.4rem;
+}
+p {
+  margin: 0 0 12px 0;
+  padding: 0;
+}
+p.subtitle {
+  margin: 0 0 6px 0;
+  font-size: 1.4rem;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}

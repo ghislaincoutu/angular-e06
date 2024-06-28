@@ -1,0 +1,16 @@
+<div class="row">
+  <div>
+    <h2>T08</h2>
+    <p>Affichage de documents externes.</p>
+    <div *ngFor="let x of data81" class="content88">
+      <p>{{x.id}}</p>
+      <div [innerHTML]="displayHTML(x.iframe73)"></div>
+    </div>
+  </div>
+  <div class="code-preview">
+    <h3>t08.component.html</h3>
+    <iframe src="assets/code-preview/t08/html.txt"></iframe>
+    <h3>t08.component.ts</h3>
+    <iframe src="assets/code-preview/t08/typescript.txt"></iframe>
+  </div>
+</div>

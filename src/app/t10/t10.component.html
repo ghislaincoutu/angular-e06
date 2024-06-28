@@ -1,0 +1,20 @@
+<div class="row">
+  <div>
+    <h2>T10</h2>
+    <p>Affichage de documents externes.</p>
+    <div *ngFor="let x of dataList84">
+      <p>{{ x.id }}</p>
+      <div class="external-file">
+        <div [innerHTML]="x.document84 | async"></div>
+      </div>
+    </div>
+  </div>
+  <div class="code-preview">
+    <h3>t10.component.html</h3>
+    <iframe src="assets/code-preview/t10/html.txt"></iframe>
+    <h3>t10.component.ts</h3>
+    <iframe src="assets/code-preview/t10/typescript.txt"></iframe>
+    <h3>module02.service.ts</h3>
+    <iframe src="assets/code-preview/module02/typescript.txt"></iframe>
+  </div>
+</div>

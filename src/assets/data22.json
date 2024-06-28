@@ -1,0 +1,20 @@
+{
+  "comments": [{
+    "title": "Titre du document JSON",
+    "author": "Ghislain Coutu",
+    "date": "Version du 2021-12-19"
+  }],
+  "records": [{
+      "id": 11,
+      "name": "Montréal"
+    },
+    {
+      "id": 12,
+      "name": "Québec"
+    },
+    {
+      "id": 13,
+      "name": "Trois-Rivières"
+    }
+  ]
+}
