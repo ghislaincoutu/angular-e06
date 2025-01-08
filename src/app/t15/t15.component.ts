@@ -14,9 +14,10 @@ export class Model22 {
 }
 
 @Component({
-  selector: 'app-t15',
-  templateUrl: './t15.component.html',
-  styleUrls: ['./t15.component.scss']
+    selector: 'app-t15',
+    templateUrl: './t15.component.html',
+    styleUrls: ['./t15.component.scss'],
+    standalone: false
 })
 export class T15Component implements OnInit {
   processData21: any = '';

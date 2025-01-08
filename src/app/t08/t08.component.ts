@@ -3,9 +3,10 @@ import { DomSanitizer } from '@angular/platform-browser';
 import { environment } from './../../environments/environment';
 
 @Component({
-  selector: 'app-t08',
-  templateUrl: './t08.component.html',
-  styleUrls: ['./t08.component.scss']
+    selector: 'app-t08',
+    templateUrl: './t08.component.html',
+    styleUrls: ['./t08.component.scss'],
+    standalone: false
 })
 export class T08Component implements OnInit {
   envTitle = environment.envTitle;

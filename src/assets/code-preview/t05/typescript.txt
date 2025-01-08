@@ -1,10 +1,11 @@
 import { Component, OnInit, AfterViewChecked, ChangeDetectionStrategy } from "@angular/core";
 
 @Component({
-  selector: 'app-t05',
-  templateUrl: './t05.component.html',
-  styleUrls: ['./t05.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush
+    selector: 'app-t05',
+    templateUrl: './t05.component.html',
+    styleUrls: ['./t05.component.scss'],
+    changeDetection: ChangeDetectionStrategy.OnPush,
+    standalone: false
 })
 export class T05Component implements OnInit {
 

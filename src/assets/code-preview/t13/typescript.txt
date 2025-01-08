@@ -2,10 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { Module03Service } from '../module03.service';
 
 @Component({
-  selector: 'app-t13',
-  templateUrl: './t13.component.html',
-  styleUrls: ['./t13.component.scss'],
-  providers: [Module03Service]
+    selector: 'app-t13',
+    templateUrl: './t13.component.html',
+    styleUrls: ['./t13.component.scss'],
+    providers: [Module03Service],
+    standalone: false
 })
 export class T13Component implements OnInit {
   brandName = [] as any;

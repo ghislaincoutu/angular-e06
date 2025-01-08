@@ -23,9 +23,10 @@ const data30 = {
 };
 
 @Component({
-  selector: 'app-t14',
-  templateUrl: './t14.component.html',
-  styleUrls: ['./t14.component.scss']
+    selector: 'app-t14',
+    templateUrl: './t14.component.html',
+    styleUrls: ['./t14.component.scss'],
+    standalone: false
 })
 export class T14Component implements OnInit {
   test21:any = '';

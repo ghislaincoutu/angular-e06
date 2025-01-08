@@ -3,9 +3,10 @@ import { HttpClient } from '@angular/common/http';
 import { Module02Service, Data84 } from '../module02.service';
 
 @Component({
-  selector: 'app-t10',
-  templateUrl: './t10.component.html',
-  styleUrls: ['./t10.component.scss']
+    selector: 'app-t10',
+    templateUrl: './t10.component.html',
+    styleUrls: ['./t10.component.scss'],
+    standalone: false
 })
 export class T10Component implements OnInit {
   dataList84!: Data84[];
