@@ -3,9 +3,10 @@ import { HttpClient } from "@angular/common/http";
 import { environment } from './../../environments/environment';
 
 @Component({
-  selector: 'app-t03',
-  templateUrl: './t03.component.html',
-  styleUrls: ['./t03.component.scss']
+    selector: 'app-t03',
+    templateUrl: './t03.component.html',
+    styleUrls: ['./t03.component.scss'],
+    standalone: false
 })
 export class T03Component implements OnInit {
   envTitle = environment.envTitle;

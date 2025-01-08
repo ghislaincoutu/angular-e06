@@ -2,9 +2,10 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder } from "@angular/forms";
 
 @Component({
-  selector: 'app-t11',
-  templateUrl: './t11.component.html',
-  styleUrls: ['./t11.component.scss']
+    selector: 'app-t11',
+    templateUrl: './t11.component.html',
+    styleUrls: ['./t11.component.scss'],
+    standalone: false
 })
 export class T11Component implements OnInit {
   firstName: any = ['Gilles', 'Louise', 'Robert', 'Jean']

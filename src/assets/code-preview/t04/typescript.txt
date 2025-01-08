@@ -1,9 +1,10 @@
 import { Component, OnInit, AfterViewChecked, NgZone } from '@angular/core';
 
 @Component({
-  selector: 'app-t04',
-  templateUrl: './t04.component.html',
-  styleUrls: ['./t04.component.scss']
+    selector: 'app-t04',
+    templateUrl: './t04.component.html',
+    styleUrls: ['./t04.component.scss'],
+    standalone: false
 })
 export class T04Component implements OnInit {
   constructor(private Zone18: NgZone) { }
