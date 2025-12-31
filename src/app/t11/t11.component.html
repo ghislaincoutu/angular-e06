@@ -6,7 +6,9 @@
       <select formControlName="name21">
         <option disabled>Options disponibles</option>
         <option>Sélectionner une option</option>
-        <option *ngFor="let x of firstName">{{ x }}</option>
+        @for (x of firstName; track x) {
+          <option>{{ x }}</option>
+        }
       </select>
       <button>Soumettre</button>
     </form>
