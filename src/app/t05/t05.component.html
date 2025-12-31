@@ -2,9 +2,11 @@
   <div>
     <h2>T05</h2>
     <p>Affichage de données. Test d'utilisation du module <b>ChangeDetectionStrategy</b>, afin d'éviter de déclencher une boucle sans fin.</p>
-    <div *ngFor="let x of data81">
-      <div [innerHTML]="displayHTML(x.id)"></div>
-    </div>
+    @for (x of data81; track x) {
+      <div>
+        <div [innerHTML]="displayHTML(x.id)"></div>
+      </div>
+    }
   </div>
   <div class="code-preview">
     <h3>t05.component.html</h3>

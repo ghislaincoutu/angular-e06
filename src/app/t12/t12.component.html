@@ -4,12 +4,16 @@
     <p>Filtrage de données à partir d'un menu déroulant.</p>
     <div class="form04">
       <select [(ngModel)]="brandModel" (change)="selectBrand()">
-        <option *ngFor="let item of brandName">{{ item }}</option>
+        @for (item of brandName; track item) {
+          <option>{{ item }}</option>
+        }
       </select>
       <button type="button" (click)="resetList()">Réinitialiser</button>
-      <div *ngFor="let item of goods">
-        <app-goods [goodsData]="item"></app-goods>
-      </div>
+      @for (item of goods; track item) {
+        <div>
+          <app-goods [goodsData]="item"></app-goods>
+        </div>
+      }
     </div>
   </div>
   <div class="code-preview">

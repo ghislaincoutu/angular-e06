@@ -5,11 +5,15 @@
     <form class="form04">
       <select [(ngModel)]="brandModel" (change)="selectBrand()" [ngModelOptions]="{standalone: true}">
         <option value="all">Toutes les marques</option>
-        <option *ngFor="let item of brandName">{{ item }}</option>
+        @for (item of brandName; track item) {
+          <option>{{ item }}</option>
+        }
       </select>
-      <div *ngFor="let x of goods">
-        <div>{{ x.title }}</div>
-      </div>
+      @for (x of goods; track x) {
+        <div>
+          <div>{{ x.title }}</div>
+        </div>
+      }
     </form>
   </div>
   <div class="code-preview">
