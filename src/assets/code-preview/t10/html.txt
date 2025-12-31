@@ -2,12 +2,14 @@
   <div>
     <h2>T10</h2>
     <p>Affichage de documents externes.</p>
-    <div *ngFor="let x of dataList84">
-      <p>{{ x.id }}</p>
-      <div class="external-file">
-        <div [innerHTML]="x.document84 | async"></div>
+    @for (x of dataList84; track x) {
+      <div>
+        <p>{{ x.id }}</p>
+        <div class="external-file">
+          <div [innerHTML]="x.document84 | async"></div>
+        </div>
       </div>
-    </div>
+    }
   </div>
   <div class="code-preview">
     <h3>t10.component.html</h3>
