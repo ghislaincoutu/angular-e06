@@ -20,4 +20,4 @@ tar -czvf $destination $source
 
 source=/home/xd21/angular-e06/
 destination=/home/Backups/angular-e06_`(date +%Y%m%d-%H%M)`.tar.gz
-tar --exclude=".angular" --exclude=".angular" --exclude=".git" --exclude="node_modules" -czvf $destination $source
+tar --exclude=".angular" --exclude=".git" --exclude="node_modules" -czvf $destination $source
