@@ -1,4 +1,5 @@
 # angular-e06 &mdash; Programmation de divers composants et services Angular (E06)
+<img src="related-files/medias/angular-e06.png" alt="Aperçu de l’interface" style="max-width:1000px;">
 
 ## Démonstration
 https://ghislaincoutu.ca/d002/angular-e06
