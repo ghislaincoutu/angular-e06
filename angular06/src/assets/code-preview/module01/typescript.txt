@@ -14,19 +14,19 @@ const data62 = [
 const data84 = [
   {
     id: "aide001",
-    extfile73: envURL + "/angular-e06t01/fiches/aide001/include.html"
+    extfile73: envURL + "/angular06t01/fiches/aide001/include.html"
   },
   {
     id: "aide002",
-    extfile73: envURL + "/angular-e06t01/fiches/aide001/include.html"
+    extfile73: envURL + "/angular06t01/fiches/aide001/include.html"
   },
   {
     id: "aide003",
-    extfile73: envURL + "/angular-e06t01/fiches/aide001/include.html"
+    extfile73: envURL + "/angular06t01/fiches/aide001/include.html"
   },
   {
     id: "aide004",
-    extfile73: envURL + "/angular-e06t01/fiches/aide001/include.html"
+    extfile73: envURL + "/angular06t01/fiches/aide001/include.html"
   }
 ];
 

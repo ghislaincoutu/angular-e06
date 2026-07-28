@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-e06": {
+    "angular06": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -21,7 +21,7 @@
           "builder": "@angular/build:application",
           "options": {
             "outputPath": {
-              "base": "dist/angular-e06"
+              "base": "dist/angular06"
             },
             "index": "src/index.html",
             "polyfills": [
@@ -74,10 +74,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "angular-e06:build:production"
+              "buildTarget": "angular06:build:production"
             },
             "development": {
-              "buildTarget": "angular-e06:build:development"
+              "buildTarget": "angular06:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -85,7 +85,7 @@
         "extract-i18n": {
           "builder": "@angular/build:extract-i18n",
           "options": {
-            "buildTarget": "angular-e06:build"
+            "buildTarget": "angular06:build"
           }
         },
         "test": {

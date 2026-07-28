@@ -6,16 +6,16 @@ echo "Copie de sécurité des fichiers relatifs à l'application angular12e04"
 apply_pause "Appuyer sur la touche [Retour] pour continuer..."
 
 source=/var/www/html/d002/angular-e06
-destination=/home/XD01/angular-e06/related_files/publication
+destination=/home/XD01/angular-e06/related-files/publication
 rm $destination/*.tar.gz
 tar -czvf $destination/pub_angular-e06_`(date +%Y%m%d-%H%M)`.tar.gz $source/
 
 source=/var/www/html/d002/angular-e06t01/
-destination=/home/XD01/angular-e06/related_files/publication/pub_angular-e06t01_`(date +%Y%m%d-%H%M)`.tar.gz
+destination=/home/XD01/angular-e06/related-files/publication/pub_angular-e06t01_`(date +%Y%m%d-%H%M)`.tar.gz
 tar -czvf $destination $source
 
 source=/var/www/html/d002/angular-e06t03/
-destination=/home/XD01/angular-e06/related_files/publication/pub_angular-e06t03_`(date +%Y%m%d-%H%M)`.tar.gz
+destination=/home/XD01/angular-e06/related-files/publication/pub_angular-e06t03_`(date +%Y%m%d-%H%M)`.tar.gz
 tar -czvf $destination $source
 
 source=/home/XD01/angular-e06/
